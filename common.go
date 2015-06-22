@@ -69,7 +69,7 @@ func init() {
 // var WikiPathRegex    		= regexp.MustCompile("^/(wiki)/(.+\\.wiki)(\\?.*)?$")
 // var MdPathRegex      		= regexp.MustCompile("^/(slides|menu1|menu2|menu3|plain|test)/(.+\\.md)(\\?.*)?$")
 var FilePathRegex    		= regexp.MustCompile("^(/(slides|menu1|menu2|menu3|plain|test|wiki)/)?(.+\\.md|.+\\.wiki|.+\\.html?)(\\?.*)*$")
-var DirectoryListingTemplateFile = "directory-listing.html"
+var DirectoryListingTemplateFile = "dir.html"
 var DirectoryListingTemplateText = Load( DirectoryListingTemplateFile )
 
 var titleSplit              = "title:"
